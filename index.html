@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hipster quiz</title>
+	<!-- Google fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Righteous|Audiowide|Fugaz+One|Carter+One|Press+Start+2P|Fontdiner+Swanky|Monoton' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<h1>
+				Find Your Inner Hipster
+			</h1>
+			<button id="startButton">Start here</button>
+		</div> <!-- ./wrapper -->
+	</header>
+	<form action="">
+		<div class="wrapper">
+
+			<!-- Drink selection starts-->
+			<fieldset class="clearfix" id="drinks">
+				<h2>What alcohol do you drink?</h2>
+				<input type="radio" name="drinks" id="homebrew" value="5">
+				<label for="homebrew">
+					<img src="images/homeBrew.png" alt="">
+				</label>
+				
+				<input type="radio" name="drinks" id="guinness" value="5">
+				<label for="guinness">
+					<img src="images/Guinness.jpg" alt="">
+				</label>
+
+				<input type="radio" name="drinks" id="whiskey" value="1">
+				<label for="whiskey">
+					<img src="images/whiskey.jpg" alt="">
+				</label>
+
+				<input type="radio" name="drinks" id="millstreet" value="10">
+				<label for="millstreet">
+					<img src="images/millStreet.jpg" alt="">
+				</label>
+
+				<input type="radio" name="drinks" id="pinaColada" value="1">
+				<label for="pinaColada">
+					<img src="images/pinacolada.jpg" alt="">
+				</label>
+
+				<input type="radio" name="drinks" id="pabst" value="10">
+				<label for="pabst">
+					<img src="images/pabst.png" alt="">
+				</label>
+			</fieldset>
+			<!-- Drink selection ends-->
+
+			<!-- Clothing selection starts-->
+			<fieldset class="clearfix" id="clothing">
+				<h2>What do you wear?</h2>
+				<input type="radio" name="clothing" id="chucks" value="1">
+				<label for="chucks">
+					<img src="images/chucks.jpg" alt="">
+				</label>
+				
+				<input type="radio" name="clothing" id="fedoras" value="5">
+				<label for="fedoras">
+					<img src="images/fedora.jpg" alt="">
+				</label>
+
+				<input type="radio" name="clothing" id="suspenders" value="5">
+				<label for="suspenders">
+					<img src="images/suspenders.jpg" alt="">
+				</label>
+
+				<input type="radio" name="clothing" id="jeans" value="10">
+				<label for="jeans">
+					<img src="images/jeans.jpg" alt="">
+				</label>
+
+				<input type="radio" name="clothing" id="docs" value="1">
+				<label for="docs">
+					<img src="images/docs.jpg" alt="">
+				</label>
+
+				<input type="radio" name="clothing" id="bowtie" value="10">
+				<label for="bowtie">
+					<img src="images/bowtie.jpg" alt="">
+				</label>
+			</fieldset>
+			<!-- Clothing selection ends-->
+
+			<!-- Music selection starts-->
+			<fieldset class="clearfix" id="music">
+				<h2>How do you prefer your music?</h2>
+				<input type="radio" name="music" id="coachella" value="10">
+				<label for="coachella">
+					<img src="images/coachella.jpg" alt="">
+				</label>
+				
+				<input type="radio" name="music" id="vinyl" value="10">
+				<label for="vinyl">
+					<img src="images/vinyl.jpg" alt="">
+				</label>
+
+				<input type="radio" name="music" id="bar" value="5">
+				<label for="bar">
+					<img src="images/barscene.jpg" alt="">
+				</label>
+
+				<input type="radio" name="music" id="ipod" value="1">
+				<label for="ipod">
+					<img src="images/ipod.jpg" alt="">
+				</label>
+
+				<input type="radio" name="music" id="radio" value="5">
+				<label for="radio">
+					<img src="images/radio.jpg" alt="">
+				</label>
+
+				<input type="radio" name="music" id="dj" value="1">
+				<label for="dj">
+					<img src="images/dj.jpg" alt="">
+				</label>
+			</fieldset>
+			<!-- Music selection ends-->
+
+			<!-- Transportation selection starts-->
+			<fieldset class="clearfix" id="transportation">
+				<h2>How do you get places?</h2>
+				<input type="radio" name="transportation" id="car" value="1">
+				<label for="car">
+					<img src="images/newcar.jpg" alt="">
+				</label>
+				
+				<input type="radio" name="transportation" id="longboard" value="5">
+				<label for="longboard">
+					<img src="images/longboard.jpg" alt="">
+				</label>
+
+				<input type="radio" name="transportation" id="public" value="5">
+				<label for="public">
+					<img src="images/bus.jpg" alt="">
+				</label>
+
+				<input type="radio" name="transportation" id="retroCar" value="10">
+				<label for="retroCar">
+					<img src="images/retrocar.jpg" alt="">
+				</label>
+
+				<input type="radio" name="transportation" id="walking" value="1">
+				<label for="walking">
+					<img src="images/walking.jpg" alt="">
+				</label>
+
+				<input type="radio" name="transportation" id="bike" value="1">
+				<label for="bike">
+					<img src="images/bike.jpg" alt="">
+				</label>
+			</fieldset>
+			<!-- Transportation selection ends-->
+
+			<!-- Style selection starts-->
+			<fieldset class="clearfix" id="style">
+				<h2>Stylin'</h2>
+				<input type="radio" name="style" id="tattoo" value="5">
+				<label for="tattoo">
+					<img src="images/tattoo.jpg" alt="">
+				</label>
+				
+				<input type="radio" name="style" id="piercing" value="1">
+				<label for="piercing">
+					<img src="images/piercing.jpg" alt="">
+				</label>
+
+				<input type="radio" name="style" id="femaleHair" value="1">
+				<label for="femaleHair">
+					<img src="images/femaleHair.jpg" alt="">
+				</label>
+
+				<input type="radio" name="style" id="maleCombover" value="5">
+				<label for="maleCombover">
+					<img src="images/combover.jpg" alt="">
+				</label>
+
+				<input type="radio" name="style" id="femaleDyedHair" value="10">
+				<label for="femaleDyedHair">
+					<img src="images/femaleHair.jpg" alt="">
+				</label>
+
+				<input type="radio" name="style" id="manBun" value="10">
+				<label for="manBun">
+					<img src="images/lead_hat_man_bun.jpg" alt="">
+				</label>
+			</fieldset>
+			<!-- Style selection ends-->
+
+			<input type="submit" id="submitButton">
+			
+		</div> <!-- ./wrapper -->
+	</form>
+	<div class="results">
+	</div>
+
+	<footer>
+		<div class="wrapper">
+			<a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+	</footer>
+
+	<!-- jQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+	<script src="js/javascript.js"></script>
+
+	<!-- Smooth scroll -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.7.2/jquery.smooth-scroll.min.js"></script>
+
+	<script>
+	   $(function() {
+	 		$('a').smoothScroll();
+
+	 		$("#startButton").on("click", function(){
+	 			$.smoothScroll({
+	 				scrollTarget: "#drinks"
+	 			});
+	 		});
+
+	 		$("input[name='drinks']").on("click", function(){
+	 				$.smoothScroll({
+	 					scrollTarget: "#clothing"
+	 				});
+	 			});
+
+	 			$("input[name='clothing']").on("click", function(){
+	 				$.smoothScroll({
+	 					scrollTarget: "#music"
+	 				});
+	 			});
+
+	 			$("input[name='music']").on("click", function(){
+	 				$.smoothScroll({
+	 					scrollTarget: "#transportation"
+	 				});
+	 			});
+
+	 			$("input[name='transportation']").on("click", function(){
+	 				$.smoothScroll({
+	 					scrollTarget: "#style"
+	 				});
+	 			});
+
+	 			$("input[name='style']").on("click", function(){
+	 				$.smoothScroll({
+	 					scrollTarget: "#submitButton"
+	 				});
+	 			});
+
+	 			$("#submitButton").on("click", function(){
+	 				$.smoothScroll({
+	 					scrollTarget: ".results"
+	 				});
+	 			});
+	 	});
+	</script>
+
+</body>
+</html>
